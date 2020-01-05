@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+footer {
+  font-size: 24px;
+  text-align: center;
+}
+
+main .tickets .ticket {
+  display: block;
+  max-width: 353px;
+  padding: 6px;
+  margin: 0 auto 5px;
+  background-color: #ccc;
+  border-radius: 50px;
+}
+main .tickets .ticket.loser {
+  background-color: red;
+}
+main .tickets .ticket.winner1 {
+  background-color: darkgreen;
+}
+main .tickets .ticket.winner2 {
+  background-color: green;
+}
+main .tickets .ticket.winner3 {
+  background-color: #a8841c;
+}
+main .tickets .ticket.winner4 {
+  background-color: silver;
+}
+main .tickets .ticket.winner5 {
+  background-color: goldenrod;
+}
+main .tickets .ticket span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 3px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #999;
+}
+main .tickets .ticket span.match {
+  background-color: green;
+}
+main .buttons {
+  display: inline-block;
+}
+main button {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 0 0 10px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #00C851;
+  color: #fff;
+  box-shadow: 0 5px 3px rgba(0, 200, 81, 0.5), 0 1px 1px #007e33;
+}
+main button.skip {
+  background-color: #ffbb33;
+  box-shadow: 0 5px 3px rgba(255, 187, 51, 0.5), 0 1px 1px #ff8800;
+}
+main button.big {
+  display: block;
+  width: 100%;
+  background-color: #33b5e5;
+  box-shadow: 0 5px 3px rgba(51, 181, 229, 0.5), 0 1px 1px #0099cc;
+}
+
+/*# sourceMappingURL=master.css.map */

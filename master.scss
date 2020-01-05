@@ -18,6 +18,40 @@ footer{
 }
 
 main{
+
+    .tickets{
+        .ticket{
+            display: block;
+            max-width: 353px;
+            padding: 6px;
+            margin: 0 auto 5px;
+            background-color: #ccc;
+            border-radius: 50px;
+
+            &.loser{background-color: red;}
+            &.winner1{background-color: darkgreen;}
+            &.winner2{background-color:green;}
+            &.winner3{background-color: #a8841c;}
+            &.winner4{background-color: silver}
+            &.winner5{background-color: goldenrod}
+
+            span{
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                margin: 0 3px;
+                vertical-align: middle;
+                border-radius: 50%;
+                background-color: #999;
+
+                &.match {
+                    background-color: green;
+                }
+            }
+        }
+    }
+
     .buttons{
         display: inline-block;
     }
