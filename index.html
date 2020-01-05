@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lotto Sim</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="master.css">
+
+</head>
+<body>
+    <header>Lotto Sim</header>
+    <main>
+        <div id="tickets" class="tickets"></div>
+        <div class="stats">
+            Weeks: <span id="stats_draws">0</span> |
+            Money Spent: <span id="stats_spent">0</span> |
+            Balance: $<span id="stats_balance">500</span>
+        </div>
+
+        <div class="buttons">
+            <button id="buy_one">Buy 1 Ticket</button>
+            <button id="buy_five">Buy 5 Tickets</button>
+            <button id="buy_ten">Buy 10 Tickets</button>
+            <button class="skip" id="skip_week">Skip</button>
+            <button class="big" id="draw">Start Draw!</button>
+        </div>
+    </main>
+    <footer>Created by Josh Byvelds - v0.01 - Last updated on January 4th, 2020</footer>
+
+    <!-- Javascript -->
+    <script src="master.js"></script>
+</body>
+</html>
